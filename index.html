@@ -1,0 +1,200 @@
+<!-- bootstrap para site com responsividade -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1">
+	<link rel="stylesheet" type="text/css" href="./estilo.css">
+	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<section class="container">  <!-- adiciona um espaçamento padrão do bootstrap --->
+		
+	<h2> Sobre Nós</h2>
+	<img src="./bootstrap/img/sobre-nos.jpg" class="img-responsive" alt="Responsive Image">
+
+	<div class="panel-group" id="panel-about">	
+		<div class="panel panel-default">	
+			<div class="panel-heading">   
+				<h3 class="panel-title" data-toggle="collapse" data-target="#frist-p" data-parent="#panel-about"> Desde 1980 </h3>
+			</div>
+			<div  id="frist-p" class="collapse in">
+				<div class="panel-body">
+					<p> Desde 1980 restaurando carros e os personalizando </p>
+				</div>	
+			</div>
+		</div>
+		<div class="panel panel-default">	
+			<div class="panel-heading">	
+				<h3 class="panel-title" data-toggle="collapse" data-target="#second-p" data-parent="#panel-about"> Orçamento Online </h3>
+			</div>
+			<div  id="second-p" class="collapse in">
+				<div class="panel-body">
+					<p> Chama no Zap  12 9998 - 8080</p> 
+				</div>
+			</div>	
+		</div>
+	</div>	
+</section>
+
+<div class="jumbotron">
+	<div class="container">	
+		<h1> Mais de 300 prêmios do caburador de ouro</h1>
+ 	    <p>Clientes satisfeitos por todo o Brasil </p>
+ 	</div>    
+</div>
+
+<h2></h2>
+<p> </p>
+
+<section class="container">  <!-- esse container faz que tenha um respiro da imagem com o final da tela -->
+	<h2> Nossos desafios </h2>
+
+	<figure class="thumbnail">  <!-- componente do bootstrap  que faz com que tenha uma borda na imagem -->
+		<img src="./bootstrap/img/desafios.jpg" class="img-responsive">
+
+		<figcaption class="caption">   <!-- capiton é para legendas -->
+			<h3> Aston Martin</h3>	
+			<p>Melhor forma de mostrar nosso valor, mostramos o tamanho dos nossos desafios</p>
+		</figcaption>		
+	</figure>
+
+
+	<figure class="thumbnail">  <!-- componente do bootstrap  que faz com que tenha uma borda na imagem -->
+		<img src="./bootstrap/img/desafios-2.jpg" class="img-responsive">
+
+		<figcaption class="caption">   <!-- capiton é para legendas -->
+			<h3> Volvo PV544</h3>	
+			<p>Melhor forma de mostrar nosso valor, mostramos o tamanho dos nossos desafios</p>
+		</figcaption>		
+	</figure>
+
+	<figure class="thumbnail">  <!-- componente do bootstrap  que faz com que tenha uma borda na imagem -->
+		<img src="./bootstrap/img/desafios-3.jpg" class="img-responsive">
+
+		<figcaption class="caption">   <!-- capiton é para legendas -->
+			<h3> Jaguar Mark 1</h3>	
+			<p>Melhor forma de mostrar nosso valor, mostramos o tamanho dos nossos desafios</p>
+		</figcaption>		
+	</figure>
+
+	<figure class="thumbnail">  <!-- componente do bootstrap  que faz com que tenha uma borda na imagem -->
+		<img src="./bootstrap/img/desafios-4.jpg" class="img-responsive">
+
+		<figcaption class="caption">   <!-- capiton é para legendas -->
+			<h3> AC Aceca</h3>	
+			<p>Melhor forma de mostrar nosso valor, mostramos o tamanho dos nossos desafios</p>
+		</figcaption>		
+	</figure>
+</section>
+<section>
+
+	<h2 class="container" id="depoimentos">Depoimentos de Clientes</h2>
+
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">  <!--  as bolinhas que controlam os slides -->
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+
+	    <div class="item active">  <!-- é o primeiro item que vai carregar e precisa dar um star -->
+	      <img src="./bootstrap/img/Restaurado-Cristine.jpg" alt="Carro Cristine restaurado">
+	      <div class="carousel-caption">
+	      	<h3>Marcio</h3>
+	      	<p> Não há quem não olhe para esse carro agora </p>
+	      </div>
+	    </div>
+	 
+	    <div class="item">
+	      <img src="./bootstrap/img/Restaurado-Opala.jpg" alt="Carro Chevre Opala restaurado">
+	      <div class="carousel-caption">
+	      	<h3>Felix</h3>
+	      	<p> Meu carro ficou simplesmente igual quando o comprei </p>
+	      </div>
+	    </div>
+	  
+
+	  	<div class="item">
+	      <img src="./bootstrap/img/Restaurado-Jeep.jpg" alt="Carro Ford Jeep Willes restaurado">
+	      <div class="carousel-caption">
+	    	<h3>Nicole</h3>
+	    	<p>Nunca pensei que alguém poderia deixar meu Jeep mais bonito do que quando ele saiu da fabrica</p>
+	  	  </div>
+	    </div>
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+<div class="container">
+	<h2> Video Institucional </h2>
+	<div class="embed-responsive embed-responsive-16by9">
+		<iframe class="embed-responsive-item" src="xxxxx"></iframe>
+	</div>
+</div>
+
+<section id="contato" class="col-sm-6">
+				<h2>Contato</h2>
+				<h4>Entre em contato conosco</h4>
+
+				<form>
+					<div class="form-group">
+						<label for="contato-nome">Nome:</label>
+						<input id="contato-nome" class="form-control" type="text" placeholder="Seu nome">
+					</div>
+
+					<div class="form-group">
+						<label for="contato-email">E-mail:</label>
+						<div class="input-group">
+							<div class="input-group-addon">@</div>
+			      	<input id="contato-email" class="form-control" type="email" placeholder="Seu e-mail">
+		      	</div>
+					</div>
+
+					<div class="grupo-radio">
+						<div class="radio">
+							<label>
+								<input type="radio" name="tipo-pessoa" value="fisica" checked>
+								Pessoa física
+							</label>
+						</div>
+
+						<div class="radio">
+							<label>
+								<input type="radio" name="tipo-pessoa" value="juridica">
+								Pessoa jurídica
+							</label>
+						</div>
+					</div><!--
+					--><select class="contato-select form-control" name="tipo-solicitacao">
+						<option value="" disabled selected>Tipo de solicitação</option>
+					  <option value="casa">Casa</option>
+					  <option value="apartamento">Apartamento</option>
+					  <option value="mansao">Mansão</option>
+					</select>
+
+					<button class="botao-enviar" type="submit" class="btn btn-primary">Enviar</button>
+				</form>
+</section>
+
+
+
+</section>
+<script src="./jquery.js"></script>	
+<script src="./bootstrap/js/bootstrap.min.js"></script>	
+</body>
+</html>

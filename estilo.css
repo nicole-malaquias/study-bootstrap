@@ -1,0 +1,29 @@
+#panel-about {
+	margin-top: 20px;
+}
+
+#depoimentos{
+	background: blue;
+	color:#FFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+	font-size: 22px;
+}
+
+.contato-select,
+.grupo-radio {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+.grupo-radio .radio:first-child {
+	margin-top: 0;
+}
+
+.botao-enviar{
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
