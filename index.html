@@ -165,14 +165,13 @@
 		      	</div>
 					</div>
 
-					<div class="grupo-radio">
+					<div class="col-xs-6">
 						<div class="radio">
 							<label>
 								<input type="radio" name="tipo-pessoa" value="fisica" checked>
 								Pessoa física
 							</label>
 						</div>
-
 						<div class="radio">
 							<label>
 								<input type="radio" name="tipo-pessoa" value="juridica">
@@ -180,13 +179,16 @@
 							</label>
 						</div>
 					</div><!--
-					--><select class="contato-select form-control" name="tipo-solicitacao">
-						<option value="" disabled selected>Tipo de solicitação</option>
-					  <option value="casa">Casa</option>
-					  <option value="apartamento">Apartamento</option>
-					  <option value="mansao">Mansão</option>
-					</select>
 
+					-->
+					<div class="col-xs-6">
+						<select class="form-control contato-select " name="tipo-solicitacao">
+							<option value="" disabled selected>Tipo de solicitação</option>
+						  		<option value="casa">Restaurar</option>
+						 		 <option value="apartamento">Tunar</option>
+						 		 <option value="mansao">Concertar</option>
+						</select>
+					</div>
 					<button class="botao-enviar" type="submit" class="btn btn-primary">Enviar</button>
 				</form>
 </section>

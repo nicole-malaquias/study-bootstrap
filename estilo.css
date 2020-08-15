@@ -27,3 +27,14 @@
 	margin-bottom: 50px;
 
 }
+
+.grupo-radio, .contato-select 	{
+	width: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px;
+}
+
+#rolagem{
+	margin-top: 20px;
+}
